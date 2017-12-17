@@ -20,25 +20,25 @@ More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-E/bl
 
 ## Baseline system manual evaluation
 - We manually analyzed 60 baseline translations. 
-- Our main observation was that the next problems exist: 
-1. Grammatical problems:
-1.1 Passive voice lost
-1.2 Wrong abreviation used. 
-2. Sentence meaning problems:
-2.1 Reversed meaning used
-2.2 Important words are lost
-2.3 Meaning totally changed
-2.4 Losts in meaning of relations between subject in sentence.
+- Our main observation was that the next problems exist:<br>
+1. Grammatical problems:<br>
+1.1 Passive voice lost<br>
+1.2 Wrong abreviation used. <br>
+2. Sentence meaning problems:<br>
+2.1 Reversed meaning used<br>
+2.2 Important words are lost<br>
+2.3 Meaning totally changed<br>
+2.4 Losts in meaning of relations between subject in sentence.<br>
 
-- Take a look at our motivating example produced by baseline system. You can see relevant examples in relevant numbers, and bold color for current problematic part:
-1.1 "Even   traditional   websites   die,   which   has   killed   a continuous   flow   of   information   from   social   networks." 
-1.2 "In   order   to   understand   the   size   of   this   figure,   1   TEN   is about   this   energy,   which   is   used   by   flying   mosquito." (In original sentence 1 TeV as unit mentioned).
-2.1 "The   economy   has   good   times,   partly   because   the   EU countries   conclude   customs   duties   on   trade." (where in right translation custome duties are stoped).
-2.1 One more example: "Thanks   to   this,   every   student   and   other   student   are aware   of   Erasmus,   Leonardo   and   other   cross-border partnerships." (in right translation students like student programs).
-2.2 "Since   pollution   does   not   feel   borders,   the   EU   has   been collectively   acting   in   this   area   for   years". (In original sentence, not EU itself, but its members).
-2.2 "Two   sides   discussed   the   views   of   the   international climate   change   debate   in   Copenhagen." (In original example, the debate took place in December).
-2.3 "Mr   Maris   Selga,   who   is   represented   in   the   Arab Republic   of   Egypt,   is   represented   by   Latvia." 
-2.4 "You   are   one   of   our   biggest   customers   and   we appreciate   the   commercial   transactions   you   have   done." (where in original sentence they appreciate transactions with them).
+- Take a look at our motivating example produced by baseline system. You can see relevant examples in relevant numbers, and bold color for current problematic part:<br>
+1.1 "Even   traditional   websites   die,   which   has   killed   a continuous   flow   of   information   from   social   networks." <br>
+1.2 "In   order   to   understand   the   size   of   this   figure,   1   TEN   is about   this   energy,   which   is   used   by   flying   mosquito." (In original sentence 1 TeV as unit mentioned).<br>
+2.1 "The   economy   has   good   times,   partly   because   the   EU countries   conclude   customs   duties   on   trade." (where in right translation custome duties are stoped).<br>
+2.1 One more example: "Thanks   to   this,   every   student   and   other   student   are aware   of   Erasmus,   Leonardo   and   other   cross-border partnerships." (in right translation students like student programs).<br>
+2.2 "Since   pollution   does   not   feel   borders,   the   EU   has   been collectively   acting   in   this   area   for   years". (In original sentence, not EU itself, but its members).<br>
+2.2 "Two   sides   discussed   the   views   of   the   international climate   change   debate   in   Copenhagen." (In original example, the debate took place in December).<br>
+2.3 "Mr   Maris   Selga,   who   is   represented   in   the   Arab Republic   of   Egypt,   is   represented   by   Latvia." <br>
+2.4 "You   are   one   of   our   biggest   customers   and   we appreciate   the   commercial   transactions   you   have   done." (where in original sentence they appreciate transactions with them).<br>
 
 More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-E/blob/master/reports/NMT%20lab3.pdf)
 
@@ -53,22 +53,22 @@ More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-E/bl
 
 ## Final system manual evaluation
 - Generally speaking, new model shows significantly better translation with less meaning loss and grammatically more correct. 
-- As a result you can see that our final system did progress in solving previously mentioned issues (numbered as problems above):
-1.1 "Even the traditional website dies , which has been killed by the constant force of the continuous information voiced by social networks."
-1.2 "In order to understand the size of this size , 1 TEV is about the energy that is used to move a mosquito." 
-2.1 "There are good times in the economy, partly because EU countries will end customs duties on customs collection"
-2.1 Second example: "Thanks to this , every student and other learner know the Erasmus , Leonardo and the other cross-border partnerships."
-2.2 "Since pollution does not feel borders , EU countries have been acting together for years."
-2.2 "Two sides discussed the views of the international climate change debate in Copenhagen in December."
-2.3 "Latvia is represented by Maris Selga since the Arab Republic of Egypt."
-2.4 "You are one of our biggest clients , and we appreciate business transactions with you."
+- As a result you can see that our final system did progress in solving previously mentioned issues (numbered as problems above):<br>
+1.1 "Even the traditional website dies , which has been killed by the constant force of the continuous information voiced by social networks."<br>
+1.2 "In order to understand the size of this size , 1 TEV is about the energy that is used to move a mosquito." <br>
+2.1 "There are good times in the economy, partly because EU countries will end customs duties on customs collection"<br>
+2.1 Second example: "Thanks to this , every student and other learner know the Erasmus , Leonardo and the other cross-border partnerships."<br>
+2.2 "Since pollution does not feel borders , EU countries have been acting together for years."<br>
+2.2 "Two sides discussed the views of the international climate change debate in Copenhagen in December."<br>
+2.3 "Latvia is represented by Maris Selga since the Arab Republic of Egypt."<br>
+2.4 "You are one of our biggest clients , and we appreciate business transactions with you."<br>
 
 Do not forget to check our poster: [__POSTER_LINK__]
 
 ## What we also tried or wanted to try
-Firstly we have tried increasing of vocablulary size and three different dropouts: 0.3, 0.5, 0.7. As 0.3 gave the best results, we have chosen this one, and will not include results of models with other dropout.<br>
-Model with dropout 0.5: 23.35<br>
-Model with dropout 0.7: 18.55<br>
+Firstly we have tried increasing of vocablulary size and three different dropouts: 0.3, 0.5, 0.7. As dropout:0.3 gave the best results, we have chosen this one, and will not include results of models with other dropout (0.5, 0.7).<br>
+Model with dropout 0.5 gave score 23.35<br>
+Model with dropout 0.7 gave score 18.55<br>
 Lastly, we have also trained Sockeye model (1-layer bi-LSTM encoder, 1-layer LSTM decoder with dot attention), but right now translation of this model is in queue on Rocket, so we will include translation results, when script will be exexcuted.<br>
 
 
