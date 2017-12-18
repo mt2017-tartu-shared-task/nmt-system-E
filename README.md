@@ -2,7 +2,7 @@
 This repository is a result of our participation in the shared task.<br>
 We went through the process of building, analyzing, and improving the neural machine translation system.
 
-Poster: [link]() // feel later, no need to feel now
+Poster: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-E/blob/master/reports/poster_nmt.pdf)
 
 The shared task was for Estonian-English language pair. 
 It included working with ~19.000.000 sentence pairs.
