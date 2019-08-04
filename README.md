@@ -23,7 +23,7 @@ More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-E/bl
 - Our main observation was that the next problems exist:<br>
 1. Grammatical problems:<br>
 1.1 Passive voice lost<br>
-1.2 Wrong abreviation used. <br>
+1.2 Wrong abbreviation used. <br>
 2. Sentence meaning problems:<br>
 2.1 Reversed meaning used<br>
 2.2 Important words are lost<br>
